@@ -31,6 +31,7 @@ let unit10answers1;
 let unit10answers2;
 let getIns;
 let ExUnits;
+let numerodecorrectas = 0;
 
 
 function ExUnit1(){
@@ -2462,10 +2463,45 @@ console.log("antes"+ExUnits);
 
 
 
+let frase1 = "You did great!";
+let frase2 = "Not bad!"
+let frase3 = "Keep trying!";
+let truefrase ="No bad!";
+let banner = "banner"
+let niña = "niña1"
+console.log("unit unit unit"+ExUnits);
+function checkFrase(){
+	if (numerodecorrectas > 7) {
+		truefrase = frase1;
+		niña = "niña1";
+	}
+	else if (numerodecorrectas < 8 && numerodecorrectas > 4) {
+		truefrase = frase2;
+		niña = "niña2";
+	}
+	else if (numerodecorrectas < 5) {
+		truefrase = frase3;
+		niña = "niña3";
+	}
+
+	//checar banner
+
+	if (ExUnits==1) {banner = "banner1";}
+	else if (ExUnits==2) {banner = "banner2";}
+
+
+
+}
+
+function checkEnd(){
+
+}
+
 
 
 function ShowResults(){
-
+//
+checkFrase();
 	if (ExcerciseNo == 10) {
 		console.log(listaderespuestas);
 
@@ -2487,22 +2523,24 @@ function ShowResults(){
 									'<br>'+
 									'<br>'+
 									'<br>';
-									
-			getBotEnd.innerHTML =	'<div onclick="newType();">'+
+			
+							getBotEnd.innerHTML =	'<div onclick="newType();">'+
 													'<div class="ogendcont">'+
-														'<img class="ogendimg" src="imgs2/actividades/resultado-01.png">'+
+														'<img class="ogendimg" src="imgs2/actividades/'+banner+'.png">'+
 													'</div>'+
 													'<div class="ogendcont2">'+
-														'<img class="ogendimg" src="imgs2/actividades/resultado-02.png">'+
+														'<img class="ogendimg" src="imgs2/actividades/'+niña+'.png">'+
 													'</div>'+
 													'<div class="ogendtext">'+
 														'<h2>'+numerodecorrectas+'/10</h2>'+
-														'<h3>¡Eres muy bueno!</h3>'+
+														'<h3>'+truefrase+'</h3>'+
 													'</div>'+
 													'</div>';
 
 
 					removeButton.innerHTML = '<br><br><br><br><br><br>';
+			
+
 			
 		} 
 		else {

@@ -579,14 +579,16 @@ Calculate();
 let listaderespuestas = [];
 let listadecorrects = [];
 let listamultr=[];
-let numerodecorrectas = 0;
+
 let answers1 = "aylmao";
 
 
 
 
 function newType(){
-	console.log("NEW TYPE"+ExType);
+	if (currentype == '1 3'||currentype == '2 2') {}
+		else{
+				console.log("NEW TYPE"+ExType);
     ExType = ExType + 1;
     console.log("NEW TYPE"+ExType);
 	generarRnds();
@@ -600,6 +602,8 @@ function newType(){
 	numerodecorrectas = 0;
 	Calculate();
 	console.log("NEW TYPE"+ExType);
+		}
+
 	
 
 }
