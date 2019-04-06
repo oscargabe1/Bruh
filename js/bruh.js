@@ -2468,20 +2468,20 @@ let frase2 = "Not bad!"
 let frase3 = "Keep trying!";
 let truefrase ="No bad!";
 let banner = "banner"
-let niña = "niña1"
+let nina = "nina1"
 console.log("unit unit unit"+ExUnits);
 function checkFrase(){
 	if (numerodecorrectas > 7) {
 		truefrase = frase1;
-		niña = "niña1";
+		nina = "nina1";
 	}
 	else if (numerodecorrectas < 8 && numerodecorrectas > 4) {
 		truefrase = frase2;
-		niña = "niña2";
+		nina = "nina2";
 	}
 	else if (numerodecorrectas < 5) {
 		truefrase = frase3;
-		niña = "niña3";
+		nina = "nina3";
 	}
 
 	//checar banner
@@ -2529,7 +2529,7 @@ checkFrase();
 														'<img class="ogendimg" src="imgs2/actividades/'+banner+'.png">'+
 													'</div>'+
 													'<div class="ogendcont2">'+
-														'<img class="ogendimg" src="imgs2/actividades/'+niña+'.png">'+
+														'<img class="ogendimg" src="imgs2/actividades/'+nina+'.png">'+
 													'</div>'+
 													'<div class="ogendtext">'+
 														'<h2>'+numerodecorrectas+'/10</h2>'+
