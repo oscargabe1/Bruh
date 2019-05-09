@@ -40,6 +40,30 @@ function playAudio(audionum){
 	else if (Units==2) {
 		snd = new Audio("audios/unit2/audio"+audionum+".mp3");
 	}
+	else if (Units==3) {
+		snd = new Audio("audios/unit3/audio"+audionum+".mp3");
+	}
+	else if (Units==4) {
+		snd = new Audio("audios/unit4/audio"+audionum+".mp3");
+	}
+	else if (Units==5) {
+		snd = new Audio("audios/unit5/audio"+audionum+".mp3");
+	}
+	else if (Units==6) {
+		snd = new Audio("audios/unit6/audio"+audionum+".mp3");
+	}
+	else if (Units==7) {
+		snd = new Audio("audios/unit7/audio"+audionum+".mp3");
+	}
+	else if (Units==8) {
+		snd = new Audio("audios/unit8/audio"+audionum+".mp3");
+	}
+	else if (Units==9) {
+		snd = new Audio("audios/unit9/audio"+audionum+".mp3");
+	}
+	else if (Units==10) {
+		snd = new Audio("audios/unit10/audio"+audionum+".mp3");
+	}
 
 	
 	

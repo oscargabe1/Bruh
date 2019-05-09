@@ -525,6 +525,62 @@ transform: translateX(-50%);
 	height: 50px;
 	z-index: 1000;
 }
+.ogheader3{
+	background-color: #ffb720;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+.ogheader4{
+	background-color: #ef7c48;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+.ogheader5{
+	background-color: #ec5f78;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+.ogheader6{
+	background-color: #9f4878;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+.ogheader7{
+	background-color: #725191;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+.ogheader8{
+	background-color: #5c5ba5;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+.ogheader9{
+	background-color: #00a5c2;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
+.ogheader10{
+	background-color: #0075be;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000;
+}
 
 .ogheadermenu{
 	background-color: #1b6195;
@@ -611,7 +667,12 @@ margin-left: -136px;
 	font-size: 1.4em;
 	color: #1b6195;
 	margin: 0px;
-	
+}
+.ogmidtitle2 h3{
+	font-weight: 100;
+	font-size: 1.3em;
+	color: #1b6195;
+	margin: 0px;
 }
 
 .ogmidtitle h3{
@@ -697,3 +758,256 @@ margin-bottom: 0px;
 	text-align: justify;
 	z-index: -1000;
 }
+.ogcenteredtriple
+{
+	width: 100%;
+	margin-bottom: 32px;
+	padding-left: 8px;
+	text-align: center;
+}
+.ogcenteredtriple2
+{
+	padding-left: 8px;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+.ogtripletitle
+{
+	padding-left: 5%;
+	width: 100%;
+
+}
+.ogtriple
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+}
+.ogtriple2
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#ffb720;
+}
+.ogtriple22
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#ef7c48;
+}
+.ogtriple25
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#ec5f78;
+}
+
+.ogtriple3
+{
+	font-weight: bold;
+}
+.ogtriple4
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#ffb720;
+}
+.ogtriple42
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#ef7c48;
+}
+.ogtriple45
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#ec5f78;
+}
+.ogtriple5
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#ffb720;
+}
+.ogtriple6
+{
+	float: left;
+	font-weight: 900;	
+	padding-right: 5px;
+}
+.ogtriple7
+{
+	float: left;
+	padding-left: 5px;
+	font-weight: 900;
+}
+.ogtriple8
+{
+	float: left;
+	padding-left: 1px;
+	font-weight: 900;
+}
+.ogtriple9
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#ef7c48;
+}
+.ogtriplen5
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#ec5f78;
+}
+
+.ognofloat
+{
+	float: none;
+}
+
+
+
+.ogspacer
+{
+height: 30px;
+}
+.ogspacer2
+{
+height: 9px;
+}
+
+
+
+
+.ogtriplea6
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#9f4878;
+}
+.ogtripleb6
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#9f4878;
+}
+.ogtriplec6
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#9f4878;
+}
+/*Colores Unit7*/
+.ogtriplea7
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#725191;
+}
+.ogtripleb7
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#725191;
+}
+.ogtriplec7
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#725191;
+}
+/*Colores Unit8*/
+.ogtriplea8
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#5c5ba5;
+}
+.ogtripleb8
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#5c5ba5;
+}
+.ogtriplec8
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#5c5ba5;
+}
+/*Colores Unit9*/
+.ogtriplea9
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#00a5c2;
+}
+.ogtripleb9
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#00a5c2;
+}
+.ogtriplec9
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#00a5c2;
+}
+/*Colores Unit10*/
+.ogtriplea10
+{
+	float: left;
+	padding-right: 5px;
+	font-weight: bold;
+	color:#0075be;
+}
+.ogtripleb10
+{
+	float: left;
+	width: 33.3%;
+	font-weight: bold;
+	color:#0075be;
+}
+.ogtriplec10
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#0075be;
+}
+.ogtriplecp
+{
+	float: left;
+	padding-right: 0px;
+	font-weight: 900;
+	color:#1b6195;
+}
+
+
+
+
+
