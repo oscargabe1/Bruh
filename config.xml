@@ -5,5 +5,8 @@
         </description>
         
         <icon src="icon.png" />
-        <access origin="*" />
+      
+        <allow-navigation href="*" />
+		<allow-intent href="*" />
+		<access origin="*" />
     </widget>
